@@ -19,20 +19,28 @@ public class Client {
     private Date   joining_date;    
     private String level;
     private String pay;
+    private String motive;
 
+    public String getMotive() {
+        return motive;
+    }
 
-    
+    public void setMotive(String motive) {
+        this.motive = motive;
+    }
+
     public Client() {
     }
 
     public Client(String name, String paternal_surname, String maternal_surname, Date joining_date,
-            String level, String pay) {
+            String level, String pay,String motive) {
         this.name = name;
         this.paternal_surname = paternal_surname;
         this.maternal_surname = maternal_surname;
         this.joining_date = joining_date;
         this.level = level;
         this.pay = pay;
+        this.motive = motive;
     }
     public Long getId() {
         return id;

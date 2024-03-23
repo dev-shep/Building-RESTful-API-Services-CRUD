@@ -24,7 +24,7 @@ public class SpringbootApplication  implements CommandLineRunner {
 
 	public void run(String... args) throws Exception{
 		Date date = new Date();
-		clientRepository.save(new Client("Television", "Electrinics","terfrf", date,"2","1"));
+		clientRepository.save(new Client("Television", "Electrinics","terfrf", date,"2","1","afdadafafaff"));
 	
 		gobernabilidadRepository.save(new Gobernabilidad("Ingobernable"));
 		gobernabilidadRepository.save(new Gobernabilidad("Gobernable"));

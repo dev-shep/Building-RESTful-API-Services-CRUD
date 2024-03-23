@@ -380,6 +380,9 @@
                                 <th>Joining Date</th>
                                 <th>Level</th>
                                 <th>Pay</th>
+                                <th>Motive</th>
+                                
+
                                 <th></th>
                                 <th></th>
                             </tr>
@@ -395,6 +398,7 @@
                                 <th th:text="${client.joining_date}"></th>
                                 <th th:text="${client.level}"></th>
                                 <th th:text="${client.pay}"></th>
+                                <th th:text="${client.motive}"></th>
                                 <td>
                                     <a th:href="@{/update_client/{pId}(pId=${client.id})}" 
                                         class="btn btn-primary"> Edit</a>
